@@ -40,4 +40,4 @@ Our goal in this section is to build and compare several neural networks and ana
 ![Accuracy and Loss for 3rd CNN](3_chart)
 
 ### Confusion Matrix for 3rd CNN
-![Confusion Matrix for 3rd CNN](3_confuse)
+![Confusion Matrix for 3rd CNN](3_confuse.png)
