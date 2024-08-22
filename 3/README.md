@@ -54,3 +54,67 @@ Our goal in this section is to build and compare several neural networks and ana
 | 3      | 0.319    | 0.226    | 0.259     | 0.226  |
 
 *Table: Performance Metrics*
+
+
+
+### Transfer Learning
+
+In this section, the transfer learning technique was utilized, and we used three pre-trained models: ResNet, AlexNet, and Vision Transformer. The results are presented in the figures below.
+
+#### ResNet Model
+![Accuracy and Loss for ResNet Model](reschart)
+
+#### AlexNet Model
+![Accuracy and Loss for AlexNet Model](alexchart)
+
+#### Vision Transformer Model
+![Accuracy and Loss for Vision Transformer Model](vitchart)
+
+| Model | Accuracy | F1 Score | Precision | Recall |
+|-------|----------|----------|-----------|--------|
+| res   | 0.430    | 0.304    | 0.327     | 0.303  |
+| alex  | 0.218    | 0.123    | 0.150     | 0.141  |
+| vit   | 0.176    | 0.110    | 0.147     | 0.124  |
+
+**Table**: Model comparison
+
+
+### Finding Missclassified Labels
+
+In this section, we aim to identify the classes with the highest misclassification rates using the confusion matrix. Any class with a zero value on the main diagonal is considered a class that has not been correctly classified. For instance, the following classes have experienced the most incorrect predictions:
+
+| **Traffic Sign** | **Class Number** |
+|------------------|------------------|
+| Vehicles over 3.5 metric tons prohibited | 16 |
+| Pedestrians | 27 |
+| Bicycles crossing | 29 |
+| Keep left | 39 |
+
+For example, the class **Pedestrians** has often been predicted as **Right of way at the next intersection**. Upon examining the images, we found that these signs are very similar:
+
+![Pedestrians](confusionshape.png)
+
+![Right of way at the next intersection](confusionshape2.png)
+
+
+### Grayscale
+
+In this section, we converted the images to grayscale and applied the following models on the three initial models created in the first part. We obtained the following results. Additionally, due to the reduced number of layers, the training speed increased significantly.
+
+![Accuracy and loss for 1st CNN](graychart1.png)
+
+![Accuracy and loss for 2nd CNN](graychart2.png)
+
+![Accuracy and loss for 3rd CNN](graychart3.png)
+
+| **Model** | **Accuracy** | **F1 Score** | **Precision** | **Recall** |
+|-----------|--------------|--------------|---------------|------------|
+| 1         | 0.503        | 0.388        | 0.445         | 0.384      |
+| 2         | 0.643        | 0.471        | 0.544         | 0.471      |
+| 3         | 0.280        | 0.207        | 0.266         | 0.203      |
+
+### conclusion:
+
+In conclusion, we found that increasing the number of layers in CNN does not necessarily improve accuracy; it may even decrease it. Additionally, techniques such as batch normalization and dropout can help improve accuracy, and using pre-determined methods can be beneficial.
+
+Moreover, by using confusion matrices, we identified the classes that were not correctly classified. We also found that converting to grayscale generally decreased accuracy, except in one case.
