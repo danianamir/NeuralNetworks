@@ -62,6 +62,7 @@ epoch:1, batch: 5,  loss: 3.9444422721862793
 
 epoch:1, batch: 6,  loss: 3.789818525314331
 ...
+
 epoch:3, batch: 1,  loss: 3.6751136779785156
 
 epoch:3, batch: 2,  loss: 3.240877628326416
@@ -70,6 +71,7 @@ epoch:3, batch: 3,  loss: 3.474587917327881
 
 epoch:3, batch: 4,  loss: 3.2376105785369873
 ...
+
 epoch:10, batch: 22553,  loss: 2.332615375518799
 
 epoch:10, batch: 22554,  loss: 2.185699462890625
@@ -102,14 +104,23 @@ Net(
 The loss values during training with this architecture were as follows:
 
 epoch:1, batch: 1,  loss: 4.15261697769165
+
 epoch:1, batch: 2,  loss: 3.5335144996643066
+
 epoch:1, batch: 3,  loss: 3.9246745109558105
+
 epoch:1, batch: 4,  loss: 3.9843456745147705
+
 ...
+
 epoch:10, batch: 22556,  loss: 0.7672984004020691
+
 epoch:10, batch: 22557,  loss: 1.0245895385742188
+
 epoch:10, batch: 22558,  loss: 1.4346487522125244
+
 epoch:10, batch: 22559,  loss: 2.816817045211792
+
 epoch:10, batch: 22560,  loss: 1.0714493989944458
 
 
@@ -133,27 +144,48 @@ Net(
 The following loss values were obtained over 10 epochs with a batch size of 5:
 
 epoch:1, batch: 1,  loss: 1.5975878238677979
+
 epoch:1, batch: 2,  loss: 2.2063939571380615
+
 epoch:1, batch: 3,  loss: 1.9921048879623413
+
 epoch:1, batch: 4,  loss: 3.4221739768981934
+
 epoch:1, batch: 5,  loss: 2.3355460166931152
+
 epoch:1, batch: 6,  loss: 1.9843966960906982
+
 ...
+
 epoch:6, batch: 7291,  loss: 2.498605966567993
+
 epoch:6, batch: 7292,  loss: 1.7055351734161377
+
 epoch:6, batch: 7293,  loss: 2.7727231979370117
+
 epoch:6, batch: 7294,  loss: 2.523460865020752
+
 epoch:6, batch: 7295,  loss: 2.64701771736145
+
 epoch:6, batch: 7296,  loss: 2.253809690475464
+
 epoch:6, batch: 7297,  loss: 2.5137572288513184
+
 epoch:6, batch: 7542,  loss: 2.4662718772888184
+
 ...
 epoch:10, batch: 22554,  loss: 2.7367188930511475
+
 epoch:10, batch: 22555,  loss: 2.062018632888794
+
 epoch:10, batch: 22556,  loss: 2.1480462551116943
+
 epoch:10, batch: 22557,  loss: 2.381186008453369
+
 epoch:10, batch: 22558,  loss: 1.2797744274139404
+
 epoch:10, batch: 22559,  loss: 1.6547152996063232
+
 epoch:10, batch: 22560,  loss: 1.5764293670654297
 
 
@@ -180,24 +212,42 @@ Net(
 The loss values over 10 epochs are as follows:
 
 epoch:1, batch: 1,  loss: 3.810786724090576
+
 epoch:1, batch: 2,  loss: 3.8916332721710205
+
 epoch:1, batch: 3,  loss: 3.647644519805908
+
 epoch:1, batch: 4,  loss: 4.0553998947143555
+
 epoch:1, batch: 5,  loss: 3.9219963550567627
+
 ...
+
 epoch:3, batch: 9179,  loss: 1.5158764123916626
+
 epoch:3, batch: 9180,  loss: 1.6013047695159912
+
 epoch:3, batch: 9181,  loss: 1.6992194652557373
+
 epoch:3, batch: 9182,  loss: 1.830908179283142
+
 epoch:3, batch: 9183,  loss: 1.1132094860076904
+
 epoch:3, batch: 9184,  loss: 1.3101775646209717
 ...
+
 epoch:10, batch: 22555,  loss: 2.1235649585723877
+
 epoch:10, batch: 22556,  loss: 0.41758567094802856
+
 epoch:10, batch: 22557,  loss: 0.6287552118301392
+
 epoch:10, batch: 22558,  loss: 0.8542278409004211
+
 epoch:10, batch: 22559,  loss: 1.4721267223358154
+
 epoch:10, batch: 22560,  loss: 2.2521188259124756
+
 We achieved an accuracy of 66%.
 
 ##Conclusion
