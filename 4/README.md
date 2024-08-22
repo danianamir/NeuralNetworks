@@ -31,3 +31,38 @@ Afterward, the data was fed into the neural networks for training. We used `epoc
 | 100   | 0.0006     | 0.0557    | 0.9802   | 0.1336    | 0.8497   | -144.3005|
 
 ![Comparison of GRU predictions with real values](u_gru_curve.png)
+
+
+
+
+## Multivariable
+
+In the next scenario, we used other columns for price prediction. Specifically, we used the columns: `open`, `high`, `low`, `adj close`, and `volume` to predict the prices in the `close` column. Each data sequence was considered to be of length 8. We split the data into training and testing sets with an 80/20 ratio.
+
+The data was then fed into the neural networks for training. We used `epoch=100` and `learning_rate=0.001` in both models. The results are displayed in the charts below.
+
+![LSTM scores](m_lstm.png)
+
+| Epoch | train_loss | train_mae | train_r2 | test_loss | test_mae | test_r2 |
+|-------|------------|-----------|----------|-----------|----------|---------|
+| 100   | 0.0006     | 0.0551    | 0.9791   | 0.2369    | 1.1833   | -256.3241|
+
+![Comparison of LSTM predictions with real values](m_lstm_curve.png)
+
+![GRU scores](m_gru.png)
+
+| Epoch | train_loss | train_mae | train_r2 | test_loss | test_mae | test_r2 |
+|-------|------------|-----------|----------|-----------|----------|---------|
+| 100   | 0.0007     | 0.0752    | 0.9729   | 0.3350    | 1.3947   | -377.8517|
+
+![Comparison of GRU predictions with real values](m_gru_curve.png)
+
+## ARIMA
+
+In this section, we used the ARIMA model, which is applicable for forecasting time-series data, to predict prices and compared the results with actual values in a chart. After several trial and error attempts, we determined that ARIMA(5,1,3) was the most suitable configuration for this model.
+
+![Comparison of ARIMA predictions with real values](arima_curve.png)
+
+# Conclusion
+
+Based on the results obtained, both GRU and LSTM models performed well in predicting prices, with the univariable approach showing greater accuracy compared to the multivariable approach. The ARIMA model, a statistical model in this domain, also demonstrated a satisfactory performance.
