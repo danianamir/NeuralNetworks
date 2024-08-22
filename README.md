@@ -1,4 +1,4 @@
-These projects are part of the deep neural networks class for "Dr.Saeed Reze Kherad Pishe" master’s program:
+##These projects are part of the deep neural networks class for "Dr.Saeed Reze Kherad Pishe" master’s program:
 
 
 Project 1: Investigated the impact of various network parameters (layer count, dropout, batch normalization) on performance using the EMNIST dataset.
