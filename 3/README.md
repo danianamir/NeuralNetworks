@@ -62,13 +62,13 @@ Our goal in this section is to build and compare several neural networks and ana
 In this section, the transfer learning technique was utilized, and we used three pre-trained models: ResNet, AlexNet, and Vision Transformer. The results are presented in the figures below.
 
 #### ResNet Model
-![Accuracy and Loss for ResNet Model](reschart)
+![Accuracy and Loss for ResNet Model](reschart.png)
 
 #### AlexNet Model
-![Accuracy and Loss for AlexNet Model](alexchart)
+![Accuracy and Loss for AlexNet Model](alexchart.png)
 
 #### Vision Transformer Model
-![Accuracy and Loss for Vision Transformer Model](vitchart)
+![Accuracy and Loss for Vision Transformer Model](vitchart.png)
 
 | Model | Accuracy | F1 Score | Precision | Recall |
 |-------|----------|----------|-----------|--------|
