@@ -25,19 +25,32 @@ Our goal in this section is to build and compare several neural networks and ana
 4. ## Figures
 
 ### Accuracy and Loss for 1st CNN
-![Accuracy and Loss for 1st CNN](1_chart)
+![Accuracy and Loss for 1st CNN](1_chart.png)
 
 ### Confusion Matrix for 1st CNN
-![Confusion Matrix for 1st CNN](1_confuse)
+![Confusion Matrix for 1st CNN](1_confuse.png)
 
 ### Accuracy and Loss for 2nd CNN
-![Accuracy and Loss for 2nd CNN](2_chart)
+![Accuracy and Loss for 2nd CNN](2_chart.png)
 
 ### Confusion Matrix for 2nd CNN
-![Confusion Matrix for 2nd CNN](2_confuse)
+![Confusion Matrix for 2nd CNN](2_confuse.png)
 
 ### Accuracy and Loss for 3rd CNN
-![Accuracy and Loss for 3rd CNN](3_chart)
+![Accuracy and Loss for 3rd CNN](3_chart.png)
 
 ### Confusion Matrix for 3rd CNN
 ![Confusion Matrix for 3rd CNN](3_confuse.png)
+
+
+
+
+## Performance Metrics
+
+| Number | Accuracy | F1 Score | Precision | Recall |
+|--------|----------|----------|-----------|--------|
+| 1      | 0.601    | 0.443    | 0.486     | 0.451  |
+| 2      | 0.622    | 0.438    | 0.527     | 0.443  |
+| 3      | 0.319    | 0.226    | 0.259     | 0.226  |
+
+*Table: Performance Metrics*
